@@ -11,9 +11,9 @@ function mostrarResultado() {
      switch(categoria){
          case "1" : total = (precioEntrada * cantidadValue);
          break;
-         case "2": total = (precioEntrada * cantidadValue) / 0.8;
+         case "2": total = (precioEntrada * cantidadValue) / 0.80;
          break;
-         case "3": total = (precioEntrada * cantidadValue) / 0.5;
+         case "3": total = (precioEntrada * cantidadValue) / 0.50;
          break;
          case "4": total = (precioEntrada * cantidadValue) / 0.15;
          break
