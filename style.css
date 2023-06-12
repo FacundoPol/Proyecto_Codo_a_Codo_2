@@ -136,3 +136,42 @@ body {
     font-size: 15px;
     margin: 35px;
 }
+.tarifas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.contenidoTraifas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.estudiante{
+    height: 250px;
+    width: 250px;
+    border: solid 1px #0d6efd;
+}
+.trainee{
+    height: 250px;
+    width: 250px;
+    border: solid 1px #198754;
+    margin-left: 10px;
+}
+.junior{
+    height: 250px;
+    width: 250px;
+    border: solid 1px #ffc107;
+    margin-left: 10px;
+}
+.tituloVenta{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.tituloValor{
+    text-align: center;
+    text-transform: uppercase;
+}
