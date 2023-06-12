@@ -9,13 +9,13 @@ function mostrarResultado() {
     let categoria = document.getElementById("categoria").value;
     let cantidadValue = parseFloat(cantidad.value);
      switch(categoria){
-         case "1" : total = (precioEntrada * cantidadValue);
+         case "1" : total = precioEntrada * cantidadValue;
          break;
-         case "2": total = (precioEntrada * cantidadValue) / 0.80;
+         case "2": total = precioEntrada * cantidadValue * 0.80;
          break;
-         case "3": total = (precioEntrada * cantidadValue) / 0.50;
+         case "3": total = precioEntrada * cantidadValue * 0.50;
          break;
-         case "4": total = (precioEntrada * cantidadValue) / 0.15;
+         case "4": total = precioEntrada * cantidadValue * 0.15;
          break
      }
      console.log(total.toFixed(2));
